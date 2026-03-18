@@ -1,27 +1,117 @@
-# 🚗 Car Rental System (Java)
+🚗 Car Rental System (Java Swing)
 
-A simple and efficient **Car Rental System** built using **Java**. This project allows users to view available cars, rent cars, and return them through a menu-driven interface.
+A desktop-based Car Rental Management System built using Java Swing.
+This project allows users to rent cars easily while providing an admin panel to manage cars, bookings, and revenue.
 
----
+✨ Features
+👤 User Side
 
-## 📌 Features
+Register new account
 
-- 🚘 View available cars  
-- 📅 Rent a car for specific days  
-- 🔄 Return rented cars  
-- 💰 Automatic price calculation  
-- 🧠 Built using Object-Oriented Programming (OOP)
+Login system
 
----
+View available cars with images
 
-## 🛠 Tech Stack
+Book cars for specific number of days
 
-- Java  
-- OOP Concepts  
-- ArrayList (Dynamic Data Handling)
+Automatic total price calculation
 
----
+🛠️ Admin Side
 
-## 🚀 How to Run
+Secure admin login
 
-1. Clone the repository:
+Add new cars
+
+View all cars
+
+View bookings (user, car, days)
+
+Track total revenue
+
+Manage car availability
+
+🖥️ Tech Stack
+
+Java (Core Logic)
+
+Java Swing (GUI)
+
+File Handling (Data Persistence)
+
+📂 Project Structure
+Car-Rental-System
+│
+├── MainMenu.java
+├── AdminLogin.java
+├── UserLogin.java
+├── RegisterUser.java
+├── AdminDashboard.java
+├── UserDashboard.java
+├── ViewBookings.java
+├── Car.java
+├── Booking.java
+├── CarDatabase.java
+├── BookingDatabase.java
+├── UserDatabase.java
+│
+├── images/
+│   ├── swift.jpg
+│   ├── creta.jpg
+│   ├── thar.jpg
+│   ├── fortuner.jpg
+│   └── ...
+│
+└── users.dat
+🚀 How to Run
+1. Clone Repository
+git clone https://github.com/your-username/car-rental-system.git
+cd car-rental-system
+2. Compile Code
+javac *.java
+3. Run Application
+java MainMenu
+🔐 Default Credentials
+
+Admin Login
+
+Username: admin
+Password: admin
+🎨 UI Features
+
+Dark Theme Design
+
+Centered Layout (even on maximize)
+
+Smooth button styling
+
+Image-based car cards
+
+📸 Screenshots
+
+(Add your screenshots here for better presentation)
+
+⚠️ Important Notes
+
+Ensure images folder is present in the correct directory
+
+Java JDK 8 or above is required
+
+All .java files must be in the same folder
+
+🚀 Future Enhancements
+
+Convert to Web App (Spring Boot)
+
+Add MySQL Database
+
+Payment Integration
+
+Android App Version
+
+👨‍💻 Author
+
+Aditya Handa
+
+⭐ Show Your Support
+
+If you like this project, please ⭐ star the repository!
